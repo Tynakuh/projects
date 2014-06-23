@@ -1,6 +1,6 @@
 #include "Engine.h"
 
-Engine::Engine(){ //Default constructor, intialize board and player.
+Engine::Engine(){ //Default constructer, intialize board and player.
     for(int i = 0; i<3;i++){
         for(int j = 0; j<3; j++){
             board[i][j] = '1' + (i*3) + j; //Character value of 1 added to obtain integer values 1-9
